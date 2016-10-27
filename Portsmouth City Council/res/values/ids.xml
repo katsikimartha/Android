@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sightseeing" type="id">sightseeing</item>
+    <item name="drinks" type="id">drinks</item>
+    <item name="shops" type="id">shops</item>
+    <item name="image" type="id">image</item>
+    <item name="museums" type="id">museums</item>
+    <item name="nightlife" type="id">nightlife</item>
+    <item name="hotels" type="id">hotels</item>
+    <item name="pharmacy" type="id">pharmacy</item>
+    <item name="services" type="id">services</item>
+</resources>

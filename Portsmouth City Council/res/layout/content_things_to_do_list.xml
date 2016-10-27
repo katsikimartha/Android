@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.marthakat.portsmouthcityguide.ThingsToDoList"
+    tools:showIn="@layout/activity_things_to_do_list">
+
+    <ImageView
+        android:background="@drawable/portsmouth"
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@id/sightseeing"
+                android:text="Attractions"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/image"
+                android:layout_margin="10dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/attraction"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@id/shops"
+                android:text="Restaurants"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/sightseeing"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/restaurant"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/coffeeS"
+                android:text="Coffee Shops"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/shops"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/tea20"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/museums"
+                android:text="Museums"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/coffeeS"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/museum"
+                android:clickable="true"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nightlife"
+                android:text="Nightlife"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/museums"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/cocktail"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hotels"
+                android:text="Hotels"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/nightlife"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/hotel"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/shopping"
+                android:text="Shopping"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/hotels"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/shopping"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pharmacy"
+                android:text="Pharmacy"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/shopping"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/hospital"
+                android:clickable="true"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/services"
+                android:text="Police Station"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/pharmacy"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/police20"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hospital"
+                android:text="Medical Care"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/services"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/hospital"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/postOffice"
+                android:text="Post Office"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/hospital"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/post20"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/supermarket"
+                android:text="Supermarket"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/postOffice"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/shoppingcart20"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/atm"
+                android:text="ATM"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/supermarket"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/atm20"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cinema"
+                android:text="Cinema"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/atm"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/cinema"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/theatre"
+                android:text="Theatre"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/cinema"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/theatre"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bank"
+                android:text="Bank"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/theatre"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/bank"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/library"
+                android:text="Library"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/bank"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/library20"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gym"
+                android:text="Gym"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_below="@+id/library"
+                android:layout_margin="5dp"
+                android:drawableRight="@drawable/forward20"
+                android:drawableLeft="@drawable/stepper20"
+                android:clickable="true"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

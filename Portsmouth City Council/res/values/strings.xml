@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PortsmouthCityGuide</string>
+    <string name="app_tile">Portsmouth City Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="history">History of Portsmouth</string>
+    <string name="button2">Things To Do</string>
+    <string name="button3">Show Map</string>
+    <string name="button4">Portsmouth Weather</string>
+    <string name="title_activity_things_to_do_list">ThingsToDoList</string>
+    <string name="title_activity_history_portsmouth">HistoryPortsmouth</string>
+    <string name="title_activity_map_portsmouth">Map</string>
+    <string name="map">Loading...</string>
+    <string name="title_activity_maps_categories">Map</string>
+    <string name="title_activity_weather__portsmouth">Weather_Portsmouth</string>
+</resources>
